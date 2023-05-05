@@ -1,0 +1,99 @@
+:root {
+    --cor-principal: rgb(82, 52, 35);
+    --cor-secundaria: rgb(222, 228, 235);
+
+}
+
+#cor-titulo {
+    font-family: monospace;
+    color: white;
+    font-size: 70px
+}
+
+#nome {
+    display: inline-block;
+}
+
+#sobrenome {
+    display: inline-block
+}
+
+#cor-titulo2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(82, 52, 35);
+    font-size: 70px
+}
+
+#icon {
+    color: rgb(82, 52, 35);
+    ;
+}
+
+#mail {
+    color: rgb(82, 52, 35);
+    font-size: larger;
+}
+
+#tel {
+    color: rgb(82, 52, 35);
+    font-size: larger;
+}
+
+#menu {
+    height: 500px;
+    width: 300px;
+    float: left;
+
+}
+
+#profile {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    border-radius: 50%;
+}
+
+#div-sobre {
+    height: 1280px;
+    background-color: rgb(193, 201, 159);
+    padding-left: 30%;
+    padding-bottom: 50%;
+    padding-top: 100px;
+    width: 1000px;
+}
+
+nav {
+    max-width: 500px;
+    height: 2000px;
+    width: 300px;
+    background-color: rgb(82, 52, 35);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    border-bottom: 1px solid var(--cor-secundaria);
+
+}
+
+nav ul li a {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background .3s;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal)
+}
