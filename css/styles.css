@@ -32,6 +32,7 @@
 #mail {
     color: rgb(82, 52, 35);
     font-size: larger;
+    padding-right: 10px;
 }
 
 #tel {
